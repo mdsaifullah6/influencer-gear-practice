@@ -1,0 +1,251 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.hidden{
+    display: none;
+}
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.li-section{
+    display: flex;
+    gap: 30px;
+}
+ul> li{
+    list-style: none;
+}
+.button-section{
+    display: inline-flex;
+padding: 10px 24px;
+align-items: flex-start;
+gap: 8px;
+border-radius: 41px;
+background: #E02C6D;
+}
+.main-p{
+    color: #3A3A3A;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.main-h2{
+    color: #3A3A3A;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 70px;
+}
+.main-camera-text{
+    width: 582px;
+    margin-left: 100px;
+    margin-top: 50px;
+    word-wrap: wrap;
+}
+.main-camera-section{
+    width: 446px;
+    height: auto;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.main-camera-section{
+    background-image: url('images/Circle\ design.svg');
+    width: 475px;
+    height: 475px;
+   
+}
+.header-section{
+    display: flex;
+    gap: 250px;
+}
+@media screen and (max-width:576px) {
+    .header-section{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .main-camera-text{
+        text-align: center;
+
+    }
+    .main-camera-section{
+        width: 574px;
+        background-size: 476px;
+        margin: 30px;
+        background-repeat: no-repeat;
+    }
+    .img-main-camara{
+        width: 376px;
+    }
+    .main-section{
+        align-items: center;
+    }
+    .li-section{
+        display: none;
+    }
+    .hidden{
+        display: flex;
+       justify-content: space-between;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header-section{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 100px;
+    }
+    .main-camera-section{
+        width: 574px;
+        background-size: 476px;
+        margin: 30px;
+        margin-left: 25%;
+        background-repeat: no-repeat;
+    }
+}
+.all-company-link{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   margin-top: 150px;
+   margin-left: 320px;
+}
+@media screen and (max-width:576px) {
+    .all-company-link{
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        margin-left: 60px;
+        justify-content: center;
+     }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .all-company-link{
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        margin-left: 60px;
+        align-items: center;
+        
+     }
+}
+.selling-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 1200px;
+    margin-top: 100px;
+    margin-left: 320px;
+    align-items: center;
+    gap: 20px;
+    width: 329px;
+    height: 476px;
+    margin-bottom: 100px;
+
+}
+.selling-section> img{
+    width: 300px;
+    height: 256px;
+}
+.selling-section> h3{
+    color: var#18191F;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px; 
+}
+.selling-section> h4{
+    color: rgba(0, 0, 0, 87);
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+}
+.sell-h4> h4{
+    margin-top: 1000px;
+    text-align: end;
+    color: #E02C6D;
+    margin-bottom: 100px;
+
+}
+.sell-h4> h4{
+    color: rgba(245, 5, 89, 0.87);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Poppins;
+font-size: 29px;
+font-weight: 1000;
+}
+@media screen and (max-width:576px) {
+    .selling-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sell{
+        width: 500px;
+        align-items: center;
+    }
+    .sell > img{
+        width: 480px;
+    }
+    .sell-h4> h4{
+        margin-top: 5100px;
+        text-align: end;
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 576px){
+    .selling-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sell-h4> h4{
+        margin-top: 3900px;
+        text-align: end;
+        margin-bottom: 100px;
+    }
+}
+.join-section{
+    display: flex;
+    gap: 50px;
+    margin: 200px;
+}
+
+@media screen and (max-width:576px) {
+    .join-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 992px) and (min-width: 576px){
+    .join-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+.youtube{
+    width: 2rem;
+}
+.footer{
+   padding-top: 100px;
+   color:#ffb0cd;
+   background: #0A0826;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.all-heading{
+    font-size: 34px;
+font-style: normal;
+font-weight: 900;
+}
+@media screen and (max-width:576px) {
+   .footer{
+    width: 100%;
+   }
+}
+@media screen and (max-width: 992px) and (min-width: 576px){
+    .footer{
+        width: 100%;
+       }
+}
