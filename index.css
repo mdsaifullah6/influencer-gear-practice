@@ -43,7 +43,7 @@ line-height: 70px;
 }
 .main-camera-text{
     width: 582px;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 50px;
     word-wrap: wrap;
 }
@@ -57,11 +57,11 @@ line-height: 70px;
     width: 475px;
     height: 475px;
     margin-top: 50px;
-    margin-right: 100px;
+   
 }
 .header-section{
     display: flex;
-    gap: 250px;
+    gap: 200px;
 }
 /* end of main img */
 
