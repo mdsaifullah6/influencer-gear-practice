@@ -46,66 +46,24 @@ line-height: 70px;
     margin-top: 50px;
     word-wrap: wrap;
 }
-.main-camera-section{
-    width: 446px;
-    height: auto;
-    margin-top: 50px;
-    margin-right: 100px;
-}
+
 .main-camera-section{
     background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+   
+}
+.main-camera-section{
     width: 475px;
     height: 475px;
-   
+    margin-top: 50px;
+    margin-right: 100px;
 }
 .header-section{
     display: flex;
     gap: 250px;
 }
-@media screen and (max-width:576px) {
-    .header-section{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 100px;
-    }
-    .main-camera-text{
-        text-align: center;
 
-    }
-    .main-camera-section{
-        width: 574px;
-        background-size: 476px;
-        margin: 30px;
-        background-repeat: no-repeat;
-    }
-    .img-main-camara{
-        width: 376px;
-    }
-    .main-section{
-        align-items: center;
-    }
-    .li-section{
-        display: none;
-    }
-    .hidden{
-        display: flex;
-       justify-content: space-between;
-    }
-}
-@media screen and (min-width:576px) and (max-width:992px) {
-    .header-section{
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 100px;
-    }
-    .main-camera-section{
-        width: 574px;
-        background-size: 476px;
-        margin: 30px;
-        margin-left: 25%;
-        background-repeat: no-repeat;
-    }
-}
+
 .all-company-link{
    display: flex;
    flex-direction: row;
@@ -113,23 +71,8 @@ line-height: 70px;
    margin-top: 150px;
    margin-left: 320px;
 }
-@media screen and (max-width:576px) {
-    .all-company-link{
-        display: grid;
-        grid-template-columns:repeat(4, 1fr);
-        margin-left: 60px;
-        justify-content: center;
-     }
-}
-@media screen and (min-width:576px) and (max-width:992px) {
-    .all-company-link{
-        display: grid;
-        grid-template-columns:repeat(4, 1fr);
-        margin-left: 60px;
-        align-items: center;
-        
-     }
-}
+
+
 .selling-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -173,55 +116,16 @@ font-family: Poppins;
 font-size: 29px;
 font-weight: 1000;
 }
-@media screen and (max-width:576px) {
-    .selling-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .sell{
-        width: 500px;
-        align-items: center;
-    }
-    .sell > img{
-        width: 480px;
-    }
-    .sell-h4> h4{
-        margin-top: 5100px;
-        text-align: end;
-        margin-bottom: 100px;
-    }
-}
-@media screen and (max-width: 992px) and (min-width: 576px){
-    .selling-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .sell-h4> h4{
-        margin-top: 3900px;
-        text-align: end;
-        margin-bottom: 100px;
-    }
-}
+
+
 .join-section{
     display: flex;
     gap: 50px;
     margin: 200px;
 }
 
-@media screen and (max-width:576px) {
-    .join-section{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
-@media screen and (max-width: 992px) and (min-width: 576px){
-    .join-section{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-}
+
+
 .youtube{
     width: 2rem;
 }
@@ -239,13 +143,49 @@ font-weight: 1000;
 font-style: normal;
 font-weight: 900;
 }
-@media screen and (max-width:576px) {
-   .footer{
-    width: 100%;
-   }
-}
-@media screen and (max-width: 992px) and (min-width: 576px){
-    .footer{
-        width: 100%;
+@media screen and (max-width: 576px) {
+    .li-section{
+        display: none;
        }
+       .hidden{
+        display: flex;
+       }
+       .all-h2{
+        font-size: large;
+       }
+     .main-section{
+        display: flex;
+       justify-content: space-between;
+        width: 100%;
+        background-color: aliceblue;
+     }
+    /* main-img */
+    .header-section{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: fit-content;
+    }
+   
+   .main-h2{
+    font-size: 2rem;
+   }
+   .main-camera-text{
+    width:100%;
+    word-wrap:initial;
+    margin-left: 5%;
+    text-overflow:ellipsis;
+   }
+   .main-camera-section{
+    background-image: url('images/Circle\ design.svg');
+    background-size: 70%;
+    margin-left: 5%;
+   }
+   .img{
+    height: 60%;
+    position: relative;
+    top:5%;
+    
+   }
+  
 }
